@@ -33,7 +33,7 @@ var redCount = getRedCount()
   var blueCount = getBlueCount()
     //console.log('blueCount is: ', blueCount)
   var fullGrid = redCount + blueCount
-  console.log('fullGrid is: ', fullGrid)
+  console.log('fullGrid is: ', fullGrid);
 var draw = (fullGrid === 9) && (!blueWins) && (!redWins)
 if (blueWins) { //playerOne is always blue
     winner = blueWins
